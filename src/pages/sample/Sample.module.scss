@@ -1,0 +1,45 @@
+.sample {
+  padding: 1rem 1rem;
+
+  // HERO
+  .hero {
+    &__headings {
+      margin: auto;
+      text-align: center;
+    }
+
+    &__superHeading {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      font-family: sans-serif;
+    }
+
+    &__subHeading {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+    }
+
+    &__img {
+      display: block;
+      margin: 1rem auto;
+      width: 90%;
+      max-width: 600px;
+    }
+
+    &__hr {
+      max-width: 700px;
+      margin: auto;
+    }
+  }
+
+  // TEXT
+  .text {
+    &__paragraph {
+      max-width: 70ch;
+      margin: 1rem auto;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: max(16px, 0.7rem);
+      text-indent: 2ch;
+    }
+  }
+}
